@@ -1,18 +1,31 @@
 (function(){
 
-$(".text-box_end").on("click", showModal);
+	var connect = $(".text-box_end"),
+		modals = $(".modal-gray"),
+		close = $(".close");
 
-$ (".close").on("click", closeModal);
 
-function showModal() {
-	$(".modal-gray").css("display", "flex");
+
+
+function openModal(){	
+var idxOfClicked = connect.index(this);
+	$(modals[idxOfClicked]).css("display", "flex");
 }
+
+connect.on("click", openModal);
+
 
 function closeModal() {
-	$(".modal-gray").css("display", "none");
+	modals.css("display", "none");
 }
 
+close.on("click", closeModal);
+
+
+
+
 })();
+
 
 
 
