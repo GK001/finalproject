@@ -1,0 +1,154 @@
+
+
+body { 
+  background: url(college admission3.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+
+.page-header {
+	color:rgb(220,20,60);
+	font-family: 'Merriweather', serif;
+	background-color: black;
+	width: 100%;
+	border:0 auto;
+	vertical-align: baseline;
+	padding-top: 30px;
+
+}
+
+.clearfix {
+	clear: right;
+}
+
+
+.navigation-float-right {
+	color: white;
+	font-family: 'Merriweather', serif;
+	font-size: 15px;
+	padding-right: 10px;
+	border:0 auto;
+	float: right;
+
+}
+
+
+.tagline {
+	color: rgb(128,0,0);
+	font-family: 'Merriweather', serif;
+	padding:20px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.clearfix {
+	overflow:auto;
+}
+
+.banner_box {
+	border: 1px solid black;
+	height:200px;
+	width: 200px;
+	float:right;
+	display:flex;
+	flex-direction: column;
+	align-items: flex-end;
+	justify-content:center;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 20px;
+	background-color: white;
+
+}
+
+.banner_box-title {
+	font: inherit;
+	color: black;
+	font-weight: bold;
+	text-align: center;
+	height: 30px;
+
+}
+
+
+.banner_box-content {
+	color: white;
+	font-size: 80px;
+	font: inherit;
+	text-align: center;
+	height: 130px;
+	font-style: italic;
+
+}
+
+
+.row {
+	width: 100%;
+	box-sizing:border-box;
+	display: flex;
+	padding-top: 30px;
+	flex-direction:row;
+	position: absolute;
+	bottom: 0px;
+	background-color: white;
+}
+
+.bottom_container  {
+	width: 100%;
+	height: 120px;
+	box-sizing:border-box;
+	margin: 0 auto;
+	display: flex;
+	flex-direction:row;
+}
+
+
+
+.columns {
+	width: 100%;
+	box-sizing:border-box;
+	border-right: 1px solid rgba (0,0,0, 0.15)
+	max-height: 50px;
+	background-color: white;
+	text-align: center;
+	display:flex;
+	justify-content:stretch;
+}
+
+
+.text-block_content {
+	font: inherit;
+	font-size: 20px;
+	text-align: center;
+	display: inline-block;
+	align-self:center;
+	position: relative;
+	bottom:20px;
+	left: 250px;
+	background-color: white;
+}
+
+.text-box_end {
+	background-color: #A52A2A;
+	font-weight: bold;
+	color:white;
+	width: 900px;
+	height: 25px;
+	padding-left:10px;
+	padding-top: 10px;
+	text-align: center;
+	vertical-align: center;
+	display: inline-block;
+	align-self:flex-end;
+	position: relative;
+	right: 500px;
+
+}
+
+
+
+
